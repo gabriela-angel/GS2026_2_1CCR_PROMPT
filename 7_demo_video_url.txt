@@ -1,13 +1,1 @@
---- TO BE DONE ---
-
-Gravar o vídeo (YouTube NÃO LISTADO, até 3 minutos) e colar o link aqui, em uma única linha.
-Regras do briefing: cada integrante se apresenta no início; mostrar a interface Gradio funcionando.
-
-Roteiro sugerido (≈ 2m40s):
-0:00–0:20  Cada integrante diz nome e o que fez.
-0:20–0:50  Pergunta "O Ginásio Municipal ainda recebe famílias?" → resposta com fonte [doc_03] (armadilha).
-0:50–1:25  Modo agente: régua em 3,8 m subindo 25 cm/h → tool calcula a hora de saída; mostrar o trace.
-1:25–2:00  Guardrails: receita (escopo), PIX/taxa do FGTS (golpe), "quais moradores…" (LGPD).
-2:00–2:40  Tabela do RAGAS e uma frase sobre onde o RAG erra.
-
 Link: --- TO BE DONE ---
