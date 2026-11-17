@@ -1,0 +1,60 @@
+---
+doc_id: doc_02
+titulo: Relação Oficial de Abrigos Temporários
+data_publicacao: 2026-09-15
+tema: abrigos
+orgao: Secretaria Municipal de Assistência Social de Santa Ágata do Vale
+simulado: sim
+---
+
+PREFEITURA MUNICIPAL DE SANTA ÁGATA DO VALE
+SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL
+
+RELAÇÃO OFICIAL DE ABRIGOS TEMPORÁRIOS - EDIÇÃO DE SETEMBRO DE 2026
+
+A Secretaria Municipal de Assistência Social divulga a relação de locais designados para acolher famílias retiradas de suas casas em situação de cheia. O acolhimento é gratuito e não exige comprovação de renda nem cadastro prévio. Na chegada, a equipe do abrigo registra apenas o número de pessoas da família para controle de vagas.
+
+ABRIGO ABR-01 - GINÁSIO MUNICIPAL PROF. AURÉLIO DANTAS
+Endereço: Rua Coronel Meireles, 410, Centro.
+Capacidade: 300 vagas.
+Situação: ativo.
+
+ABRIGO ABR-02 - ESCOLA ESTADUAL BARÃO DO TAQUARAL
+Endereço: Rua dos Ipês, 85, Bairro Alto.
+Capacidade: 180 vagas.
+Situação: ativo.
+
+ABRIGO ABR-03 - ESCOLA MUNICIPAL RURAL LINHA SECA
+Endereço: Estrada Vicinal 12, km 4, zona rural.
+Capacidade: 90 vagas.
+Situação: ativo.
+
+ABRIGO ABR-04 - SALÃO DA PARÓQUIA SÃO JUDAS TADEU
+Endereço: Rua Padre Anselmo, 22, Vila Nova.
+Capacidade: 120 vagas.
+Situação: ativo.
+
+HORÁRIO DE FUNCIONAMENTO
+
+Os abrigos abrem quando a Defesa Civil declara o nível Alerta e funcionam 24 horas por dia enquanto durar a situação de risco. A refeição é servida em três horários: manhã, meio-dia e noite.
+
+OBSERVAÇÕES COMPLEMENTARES POR ABRIGO
+
+Acessibilidade:
+- ABR-01: rampa de acesso na entrada principal e banheiros adaptados no térreo. Todo o acolhimento ocorre no andar térreo.
+- ABR-02: rampa na entrada principal e banheiro adaptado no térreo. O segundo andar não tem elevador e não deve ser usado por pessoas com mobilidade reduzida.
+- ABR-03: acesso por rampa, mas sem banheiro adaptado.
+- ABR-04: acesso apenas por escada, com 12 degraus. Não é recomendado para cadeirantes.
+
+Animais de estimação:
+- Apenas o ABR-03 aceita cães e gatos, que ficam em área coberta separada. Os demais abrigos não recebem animais.
+
+Energia elétrica:
+- O ABR-02 possui gerador próprio e mantém iluminação e carregamento de celulares em caso de falta de luz.
+- Os demais abrigos não possuem gerador.
+
+Medicamentos e cuidados de saúde:
+- Uma equipe de enfermagem permanece no ABR-01 e no ABR-02. Quem depende de medicamento de uso contínuo deve levar o seu próprio estoque.
+
+Santa Ágata do Vale, 15 de setembro de 2026.
+Secretaria Municipal de Assistência Social

@@ -1,0 +1,215 @@
+{
+  "status": "completo",
+  "erro": null,
+  "observacao": "Todas as métricas calculadas com ground truth escrito pelo grupo.",
+  "configuracao": {
+    "juiz_llm": "openrouter/free",
+    "juiz_temperatura": 0.0,
+    "embeddings": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "ragas_versao": "0.3.9",
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "k_retriever": 6,
+    "data_execucao": "2026-11-17"
+  },
+  "metas_do_briefing_norte_nao_requisito": {
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.75,
+    "llm_context_precision_with_reference": 0.7,
+    "context_recall": 0.7
+  },
+  "perguntas": [
+    {
+      "id": "Q1",
+      "nivel": 1,
+      "pergunta": "Quais são os três níveis de alerta do plano de contingência e a partir de que cota cada um começa?",
+      "ground_truth": "Os três níveis de alerta do plano de contingência são: Atenção (a partir de 3,0 m), Alerta (a partir de 4,0 m) e Alerta Máximo (a partir de 5,0 m)",
+      "resposta": "Não há informação sobre isso na base oficial. Ligue 199 (Defesa Civil) ou 156.",
+      "docs_esperados": [
+        "doc_01"
+      ],
+      "docs_recuperados": [
+        "doc_01",
+        "doc_03",
+        "doc_04"
+      ],
+      "metricas": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "llm_context_precision_with_reference": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "Q2",
+      "nivel": 1,
+      "pergunta": "O que devo fazer com a energia elétrica da casa antes de sair, e posso usar velas para iluminar?",
+      "ground_truth": "Desligue o quadro geral de energia antes de sair de casa. Use lanterna; não use velas ou lampiões a querosene, por risco de incêndio.",
+      "resposta": "Antes de sair de casa, **desligue o quadro geral de energia**. **Não use velas nem lampiões a querosene**, pois há risco de incêndio; use lanterna [doc_01].",
+      "docs_esperados": [
+        "doc_01"
+      ],
+      "docs_recuperados": [
+        "doc_01",
+        "doc_02",
+        "doc_05"
+      ],
+      "metricas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4866,
+        "llm_context_precision_with_reference": 0.2,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q3",
+      "nivel": 1,
+      "pergunta": "Preciso me cadastrar antes para ser acolhido em um abrigo?",
+      "ground_truth": "O acolhimento não exige cadastro prévio.",
+      "resposta": "**Não.** Os abrigos não exigem cadastro prévio — a vaga é garantida apenas presencialmente [doc_06].\n\nCuidado com golpes:\n- Links que pedem CPF, senha de banco ou foto de documentos para \"reservar vaga\" são falsos [doc_06].\n- Nenhum agente da Defesa Civil pede dinheiro, senhas ou códigos recebidos por mensagem. Agentes verdadeiros usam colete e crachá [doc_06].\n\nAtenção: o ABR-01 (Ginásio Municipal Prof. Aurélio Dantas, Rua Coronel Meireles, 410) está interditado desde 24/10 e não recebe mais pessoas; famílias foram realocadas para o ABR-02 (Escola Estadual Barão do Taquaral) [doc_03].\n\nSe houver risco agora, saia do local e procure diretamente um abrigo aberto. Em dúvida, ligue 199 (Defesa Civil) ou 156.",
+      "docs_esperados": [
+        "doc_02"
+      ],
+      "docs_recuperados": [
+        "doc_01",
+        "doc_02",
+        "doc_03",
+        "doc_06"
+      ],
+      "metricas": {
+        "faithfulness": null,
+        "answer_relevancy": 0.5302,
+        "llm_context_precision_with_reference": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q4",
+      "nivel": 1,
+      "pergunta": "Como emitir a segunda via do CPF?",
+      "ground_truth": "A segunda via do CPF é emitida pela internet, no site da Receita Federal, sem custo e sem sair de casa.",
+      "resposta": "Segundo o doc_05 (publicado em 2026-10-29), a segunda via do CPF é emitida pela internet, no site da Receita Federal, sem custo e sem sair de casa.",
+      "docs_esperados": [
+        "doc_05"
+      ],
+      "docs_recuperados": [
+        "doc_03",
+        "doc_05",
+        "doc_06"
+      ],
+      "metricas": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "llm_context_precision_with_reference": 0.5,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q5",
+      "nivel": 2,
+      "pergunta": "O Ginásio Municipal ainda recebe famílias? Se não, para onde as famílias foram levadas?",
+      "ground_truth": "O Ginásio Municipal foi interditado e não recebe mais pessoas. As famílias que estavam abrigadas no ginásio foram realocadas para o ABR-02, Escola Estadual Barão do Taquaral.",
+      "resposta": "Não há informação sobre isso na base oficial. Ligue 199 (Defesa Civil) ou 156.",
+      "docs_esperados": [
+        "doc_02",
+        "doc_03"
+      ],
+      "docs_recuperados": [
+        "doc_01",
+        "doc_02",
+        "doc_05",
+        "doc_06"
+      ],
+      "metricas": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "llm_context_precision_with_reference": 0.0,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "id": "Q6",
+      "nivel": 2,
+      "pergunta": "Moro na Baixada do Sul. A partir de que cota da régua devo sair de casa?",
+      "ground_truth": "O gatilho de saída do bairro Baixada do Sul é de 4,0 m.",
+      "resposta": "Saia da Baixada do Sul quando a régua do Cais da Ponte Velha atingir a cota de **4,0 m**.\n\nA fonte mais recente é o comunicado de **24/10/2026** [doc_03], que reduziu o gatilho de saída do bairro de **4,5 m** para **4,0 m** e **substitui** a orientação anterior de março/2026 [doc_01].\n\nA cota de transbordamento da Baixada do Sul permanece em **5,2 m** [doc_03].",
+      "docs_esperados": [
+        "doc_01",
+        "doc_03"
+      ],
+      "docs_recuperados": [
+        "doc_01",
+        "doc_03",
+        "doc_04"
+      ],
+      "metricas": {
+        "faithfulness": null,
+        "answer_relevancy": 0.2495,
+        "llm_context_precision_with_reference": 0.5,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "id": "Q7",
+      "nivel": 2,
+      "pergunta": "Moro na rua 18 do Jardim das Palmeiras e perdi meus documentos. Posso pedir o saque calamidade do FGTS?",
+      "ground_truth": "Não pode pedir. No Jardim das Palmeiras, somente as ruas numeradas de 1 a 14 foram declaradas atingidas. As ruas 15 a 22 ficam em cota mais alta, não foram declaradas atingidas e, por isso, não estão abrangidas por esta portaria. Quem perdeu os documentos na cheia pode solicitar a segunda via com atendimento facilitado, e consultar o guia de segunda via de documentos da prefeitura.",
+      "resposta": "Não, você não pode solicitar o saque calamidade do FGTS. O Jardim das Palmeiras só inclui as ruas numeradas de 1 a 14; as ruas 15 a 22 (onde fica a rua 18) não foram declaradas atingidas e, portanto, não estão abrangidas pela portaria [doc_04]. Para recuperar seus documentos perdidos, você deve registrar um boletim de ocorrência (disponível online) e consultar o guia de segunda via da prefeitura [doc_04].",
+      "docs_esperados": [
+        "doc_04",
+        "doc_05"
+      ],
+      "docs_recuperados": [
+        "doc_03",
+        "doc_04",
+        "doc_06"
+      ],
+      "metricas": {
+        "faithfulness": 0.8571,
+        "answer_relevancy": 0.6515,
+        "llm_context_precision_with_reference": 0.3667,
+        "context_recall": 0.75
+      }
+    },
+    {
+      "id": "Q8",
+      "nivel": 2,
+      "pergunta": "Tenho um familiar cadeirante e um cachorro. Qual abrigo posso usar hoje?",
+      "ground_truth": "Apenas o ABR-03 aceita cães e gatos, e contém acesso por rampa, mas sem banheiro adaptado.",
+      "resposta": "Com base no comunicado mais recente (24/10/2026), **o ABR-03 (Escola Municipal Rural Linha Seca) é o único abrigo que aceita cães e gatos** [doc_03].  \n\nOs documentos não informam qual abrigo tem acessibilidade para cadeirantes (rampas, banheiros adaptados, etc.). Para confirmar a estrutura atual e garantir que o familiar será bem acolhido, **ligue agora para a Defesa Civil (199) ou para a Central 156** — eles têm a lista em tempo real de vagas e condições de cada abrigo.  \n\n**Resumo:**  \n- Animais: só o ABR-03 aceita (área coberta separada) [doc_02] [doc_03].  \n- Acessibilidade para cadeirante: não consta na base oficial; confirme pelo 199 ou 156.",
+      "docs_esperados": [
+        "doc_02",
+        "doc_03"
+      ],
+      "docs_recuperados": [
+        "doc_01",
+        "doc_02",
+        "doc_03"
+      ],
+      "metricas": {
+        "faithfulness": 0.5455,
+        "answer_relevancy": 0.0,
+        "llm_context_precision_with_reference": 1.0,
+        "context_recall": 0.3333
+      }
+    }
+  ],
+  "media": {
+    "faithfulness": 0.5671,
+    "answer_relevancy": 0.3647,
+    "llm_context_precision_with_reference": 0.4458,
+    "context_recall": 0.6354
+  },
+  "media_nivel_1": {
+    "faithfulness": 0.6667,
+    "answer_relevancy": 0.5042,
+    "llm_context_precision_with_reference": 0.425,
+    "context_recall": 0.75
+  },
+  "media_nivel_2": {
+    "faithfulness": 0.4675,
+    "answer_relevancy": 0.2252,
+    "llm_context_precision_with_reference": 0.4667,
+    "context_recall": 0.5208
+  }
+}

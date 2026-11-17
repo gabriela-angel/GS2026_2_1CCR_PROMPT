@@ -1,0 +1,30 @@
+CHAT LOG — USO DE IA NA GS 2026.2 (CitizenTech, enchentes)
+
+Ferramenta: Claude (Anthropic), assistente de IA, em conversa com um integrante do grupo.
+Regra seguida: seção 9 do briefing (IA como ferramenta; ground truth e resultado do RAGAS NÃO vêm da IA).
+
+1) Entendimento do briefing e do tema
+   - O integrante enviou o briefing e a ideia (assistente para quem é afetado por enchentes: antes, durante e depois).
+   - A IA leu o briefing e propôs enquadrar o tema na Frente D (Serviço público essencial), com 3 momentos na narrativa
+     e recorte mais profundo em "durante" e "depois", onde as armadilhas aparecem naturalmente.
+   - Escopo para dupla: 8 perguntas no RAGAS e 3 guardrails.
+
+2) Base documental (rascunho por IA, revisão do grupo)
+   - A IA rascunhou 6 documentos fictícios (município inventado), com armadilhas definidas em conjunto:
+     contradição doc_02 × doc_03, desatualização do gatilho 4,5 m → 4,0 m, faixas condicionais (FGTS, taxa do RG),
+     detalhes só no fim dos documentos.
+   - Verificação: todos têm mais de 100 palavras. Nenhum texto foi copiado de fonte pública.
+   - Revisão do grupo: 6 documentos verificados e editados.
+
+3) Código do notebook (rascunho por IA)
+   - A IA escreveu o rascunho do pipeline LCEL, das 4 tools, do agente com limite de 6 chamadas, da interface Gradio,
+     dos 5 guardrails e dos 19 testes automatizados, e da célula do RAGAS.
+   - Teste local feito pela IA: o notebook inteiro foi executado com modelos SIMULADOS (LLM e embeddings falsos) apenas
+     para validar a lógica, as tools, os guardrails (19/19) e a exportação do JSON. Isso NÃO mede qualidade do RAG e
+     nenhum número do RAGAS foi obtido assim.
+   - Não foi possível testar aqui: chamada real ao Openai, embeddings reais, Gradio no Colab, métricas reais do RAGAS.
+
+4) O que a IA NÃO fez (seção 9)
+   - Não escreveu o ground_truth das 8 perguntas (campos foram marcados com --- TO BE DONE ---).
+   - Não gerou nem estimou resultados do RAGAS (JSON provisório marcado como pendente).
+   - Não escreveu a explicação do número do RAGAS nem a análise "onde o RAG erra" (marcadas --- TO BE DONE ---).

@@ -1,0 +1,61 @@
+---
+doc_id: doc_01
+titulo: Plano Municipal de Contingência para Cheias - Edição 2026
+data_publicacao: 2026-03-10
+tema: preparacao_e_alertas
+orgao: Coordenadoria Municipal de Proteção e Defesa Civil de Santa Ágata do Vale
+simulado: sim
+---
+
+PREFEITURA MUNICIPAL DE SANTA ÁGATA DO VALE
+COORDENADORIA MUNICIPAL DE PROTEÇÃO E DEFESA CIVIL
+
+PLANO MUNICIPAL DE CONTINGÊNCIA PARA CHEIAS - EDIÇÃO 2026
+
+1. FINALIDADE
+
+Este plano orienta a população e os órgãos municipais sobre como se preparar para as cheias do Rio Taquaral, como interpretar os alertas e quando deixar a residência. Ele vale para todo o município e substitui as edições anteriores.
+
+2. NÍVEIS DE ALERTA
+
+O nível de alerta é definido pela leitura da régua do Cais da Ponte Velha, medida em metros acima do nível normal do rio:
+
+- Atenção: a partir de 3,0 m. O rio está acima do normal. A população deve acompanhar os boletins e revisar o kit de emergência.
+- Alerta: a partir de 4,0 m. Há risco de alagamento em áreas baixas. Famílias com crianças pequenas, idosos, gestantes e pessoas com mobilidade reduzida devem considerar sair antecipadamente.
+- Alerta Máximo: a partir de 5,0 m. Risco iminente. Cumprir as orientações de evacuação sem esperar nova confirmação.
+
+3. GATILHOS DE SAÍDA POR BAIRRO
+
+A orientação de deixar a residência é dada quando a régua atinge a cota de gatilho de cada bairro:
+
+- Baixada do Sul: 4,5 m.
+- Vila Ribeirinha: 5,0 m.
+- Jardim das Palmeiras: 5,5 m.
+- Centro, Bairro Alto e Vila Nova: não há evacuação prévia; manter monitoramento.
+
+4. COMO O ALERTA CHEGA ATÉ VOCÊ
+
+Os alertas são divulgados por sirene nos bairros de risco, por mensagem de celular, pela rádio comunitária e por agentes da Defesa Civil que percorrem as ruas. A Defesa Civil nunca pede dados pessoais, senhas ou pagamento para enviar alertas. Em caso de dúvida, ligue 199.
+
+5. PREPARAÇÃO ANTES DA CHEIA
+
+Mantenha pronta uma mochila com água potável, alimentos que não precisam de cozimento, medicamentos de uso contínuo, lanterna, rádio a pilha e carregador portátil de celular. Guarde os documentos pessoais em saco plástico bem fechado e, se possível, mantenha fotos dos documentos em um serviço de armazenamento na internet. Combine com a família um ponto de encontro e uma rota de saída.
+
+6. SE FALTAR ENERGIA ELÉTRICA
+
+Cortes de luz são comuns durante cheias. Desligue o quadro geral de energia antes de sair de casa. Use lanterna; não use velas ou lampiões a querosene, por risco de incêndio. Nunca ligue geradores a combustão dentro de casa ou em locais fechados, pois liberam monóxido de carbono. Economize a bateria do celular, reduzindo o brilho da tela e fechando aplicativos. Um rádio a pilha continua recebendo os boletins da Defesa Civil mesmo sem internet.
+
+7. MARGEM DE SEGURANÇA
+
+Em cheias severas, o Rio Taquaral sobe em média 25 centímetros por hora, com picos de até 40 centímetros por hora. A Defesa Civil recomenda que a saída ocorra com pelo menos 3 horas de antecedência em relação ao momento em que a água atingir a cota de transbordamento do bairro.
+
+ANEXO TÉCNICO - COTAS DE TRANSBORDAMENTO
+
+Cota em que a água começa a entrar nas residências, por bairro, na régua do Cais da Ponte Velha:
+
+- Baixada do Sul: 5,2 m.
+- Vila Ribeirinha: 5,6 m.
+- Jardim das Palmeiras: 6,0 m.
+
+Santa Ágata do Vale, 10 de março de 2026.
+Coordenadoria Municipal de Proteção e Defesa Civil
