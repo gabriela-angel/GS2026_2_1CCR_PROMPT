@@ -7,5 +7,5 @@ Integrantes (nome — RM):
 1. Gabriela Angel Silva - RM: 570808
 2. Marcos Paulo Sampaio - RM: 573987
 
-Tela final: --- TO BE DONE ---
+Tela final: VER ARQUIVO "tela_final.png" NA PASTA "8_imagens"
 Links: https://github.com/gabriela-angel/GS2026_2_1CCR_PROMPT
