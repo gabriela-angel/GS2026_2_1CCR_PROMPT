@@ -171,5 +171,6 @@ GS2026_2_1CCR_GABIMARCOS.zip
 ├── 4_README.md
 ├── 5_certificacao.txt
 ├── 6_Chat_Log.txt
-└── 7_demo_video_url.txt
+├── 7_demo_video_url.txt
+└── 8_imagens
 ```
