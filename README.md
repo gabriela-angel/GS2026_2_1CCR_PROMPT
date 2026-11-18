@@ -124,7 +124,7 @@ Por fim, recomenda-se estabilizar a configuração do modelo-juiz, ajustar o lim
 ## 8. Prints
 
 ### Interface Gradio com histórico e painel de fontes
--- TO BE DONE ---
+![gradio](8_imagens/gradio.png)
 
 ### Coleção ChromaDB e busca com `distance`
 ![colecao](8_imagens/colecao.png)
